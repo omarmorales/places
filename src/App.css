@@ -1,0 +1,65 @@
+.Header-background {
+  padding: 50px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Header-Benefit{
+  width: 32%;
+  display: inline-block;
+  margin-right: 1%;
+  text-align: left;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.Header-Benefit div:not(.Header-Benefit-content){
+  padding: 0px !important;
+}
+
+.Header-Benefit-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 25%;
+  max-width: 25%;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.Header-Benefit-image img{
+  max-width: 100%;
+}
+
+.Header-Benefit-content{
+  flex-basis: 60%;
+  max-width: 60%;
+  padding-top: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.Header-illustration{
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+  height: 400px;
+}
+
+.Header-main{
+  margin-bottom: 2em;
+  margin-left: -200px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
